@@ -1,0 +1,19 @@
+{
+  "title": "Lake Talpha",
+  "type": "Landmark",
+  "summary": "A lake named among the Stachion locations in the client.",
+  "related": [
+    "locations/stachion"
+  ],
+  "sources": [
+    "assets/saomod/lang/en_us.json / saomod.location.stachion_lake"
+  ],
+  "sections": [
+    {
+      "title": "Finding the lake",
+      "paragraphs": [
+        "The client labels this landmark under Stachion. The route, nearby enemies and travel hazards still need confirmation."
+      ]
+    }
+  ]
+}

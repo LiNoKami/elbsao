@@ -1,0 +1,19 @@
+{
+  "title": "Stachion Labyrinth",
+  "type": "Labyrinth",
+  "summary": "A named labyrinth associated with Stachion.",
+  "related": [
+    "locations/stachion"
+  ],
+  "sources": [
+    "assets/saomod/lang/en_us.json / saomod.location.stachion_labyrinth"
+  ],
+  "sections": [
+    {
+      "title": "Access",
+      "paragraphs": [
+        "Stachion Labyrinth appears among the client’s named locations. The entrance, access requirements and encounters still need confirmation."
+      ]
+    }
+  ]
+}

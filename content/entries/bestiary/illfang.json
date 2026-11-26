@@ -1,0 +1,30 @@
+{
+  "title": "Illfang the Kobold Lord",
+  "type": "Boss",
+  "summary": "A named boss with several gear associations in the client.",
+  "sources": [
+    "assets/saomod/lang/en_us.json",
+    "data/saomod/tags/entity_type/bosses.json",
+    "data/saomod/loot_modifiers/relics/"
+  ],
+  "facts": [
+    {
+      "label": "Type",
+      "value": "Boss"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Encounter",
+      "paragraphs": [
+        "Illfang is listed among the client’s boss entities. The beta encounter’s entrance, phases and party requirements still need confirmation."
+      ]
+    },
+    {
+      "title": "Loot and gear",
+      "paragraphs": [
+        "Client loot rules associate Illfang with Kobold Lord’s Phantom, Usurper’s Buckler and Warlord’s Horn. Live availability and drop rates are unknown."
+      ]
+    }
+  ]
+}

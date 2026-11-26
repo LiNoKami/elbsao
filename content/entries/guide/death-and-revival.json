@@ -1,0 +1,28 @@
+{
+  "title": "Death & revival",
+  "type": "Survival",
+  "summary": "Check the beta’s death rules before staking a run on revival.",
+  "related": [
+    "items/revive-crystal",
+    "guide/first-session"
+  ],
+  "sources": [
+    "assets/saomod/lang/en_us.json / saomod.revive_crystal.*"
+  ],
+  "sections": [
+    {
+      "title": "Before a fight",
+      "bullets": [
+        "Check the current rules for the server and mode you are playing.",
+        "Confirm whether party members can use Revive Crystals and how they are obtained.",
+        "Agree on a retreat route and when to disengage."
+      ]
+    },
+    {
+      "title": "Revive Crystal",
+      "paragraphs": [
+        "The client describes a 30-second use window, a 12-block range and revival at 25% HP in hardcore worlds. The current server rules and crystal availability still need confirmation."
+      ]
+    }
+  ]
+}

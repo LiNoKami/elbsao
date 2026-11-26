@@ -133,6 +133,9 @@ kbd { margin-left: auto; padding: .07rem .35rem; font: .74rem/1.4 var(--body-fon
 
 .article-grid { display: grid; gap: clamp(1.4rem, 4vw, 4rem); grid-template-columns: minmax(0, 2fr) minmax(235px,.78fr); align-items: start; }
 .article-kind { color: var(--cyan); font-size: .875rem; font-weight: 650; }
+.editor-link { display: inline-flex; align-items: center; min-height: 34px; margin-top: .75rem; padding: .15rem .55rem; border: 1px solid var(--line); border-radius: 3px; color: var(--muted); font-size: .875rem; }
+.editor-link:hover { color: var(--cyan); border-color: var(--cyan); }
+.article-image { display: block; width: 100%; height: auto; margin-bottom: 1rem; border: 1px solid var(--line); }
 .article-grid h1 { font-size: clamp(2.65rem, 5vw, 4.55rem); margin-top: .56rem; }
 .article-deck { max-width: 50ch; }
 .article-nav { display: flex; flex-wrap: wrap; gap: .12rem 1.22rem; border-bottom: 1px solid var(--line); margin: 1.5rem 0 1.65rem; }

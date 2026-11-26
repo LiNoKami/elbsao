@@ -1,0 +1,173 @@
+media:
+  - name: wiki-images
+    label: Wiki images
+    input: src/assets/wiki
+    output: /assets/wiki
+
+content:
+  - name: bestiary
+    label: Bestiary
+    type: collection
+    path: content/entries/bestiary
+    format: json
+    subfolders: false
+    filename:
+      template: "{primary}.json"
+      field: false
+    view:
+      primary: title
+      fields: [title, type, summary]
+      search: [title, summary]
+    fields:
+      - name: type
+        label: Entry type
+        type: select
+        required: true
+        options:
+          values: [Mob, Boss]
+      - &title
+        name: title
+        label: Title
+        type: string
+        required: true
+      - &summary
+        name: summary
+        label: Short summary
+        type: text
+        required: true
+      - &sections
+        name: sections
+        label: Article sections
+        type: object
+        list: { min: 1 }
+        required: true
+        fields:
+          - { name: title, label: Heading, type: string, required: true }
+          - { name: paragraphs, label: Paragraphs, type: text, list: true }
+          - { name: bullets, label: Bullet points, type: string, list: true }
+          - name: materials
+            label: Recipe materials
+            type: object
+            list: true
+            fields:
+              - { name: material, label: Material, type: string, required: true }
+              - { name: quantity, label: Quantity, type: string, required: true }
+      - &facts
+        name: facts
+        label: At-a-glance facts
+        type: object
+        list: true
+        fields:
+          - { name: label, label: Fact, type: string, required: true }
+          - { name: value, label: Value, type: string, required: true }
+      - &image
+        name: image
+        label: Article image
+        type: image
+        options:
+          media: wiki-images
+          extensions: [jpg, jpeg, png, webp, avif, gif]
+      - &image-alt
+        name: imageAlt
+        label: Image description
+        type: string
+        description: Describe what the image shows for readers using screen readers.
+      - &related
+        name: related
+        label: Related articles
+        type: string
+        list: true
+        description: Use an article path like items/boarfang-blade.
+      - &sources
+        name: sources
+        label: Source notes
+        type: string
+        list: true
+        description: These notes are saved in the public GitHub repository and are omitted from the wiki pages.
+
+  - name: items
+    label: Items
+    type: collection
+    path: content/entries/items
+    format: json
+    subfolders: false
+    filename:
+      template: "{primary}.json"
+      field: false
+    view:
+      primary: title
+      fields: [title, type, summary]
+      search: [title, summary]
+    fields:
+      - name: type
+        label: Entry type
+        type: select
+        required: true
+        options:
+          values: [Weapon, Accessory, Material, Consumable]
+      - *title
+      - *summary
+      - *sections
+      - *facts
+      - *image
+      - *image-alt
+      - *related
+      - *sources
+
+  - name: locations
+    label: Locations
+    type: collection
+    path: content/entries/locations
+    format: json
+    subfolders: false
+    filename:
+      template: "{primary}.json"
+      field: false
+    view:
+      primary: title
+      fields: [title, type, summary]
+      search: [title, summary]
+    fields:
+      - name: type
+        label: Entry type
+        type: select
+        required: true
+        options:
+          values: [Town, Landmark, Labyrinth]
+      - *title
+      - *summary
+      - *sections
+      - *facts
+      - *image
+      - *image-alt
+      - *related
+      - *sources
+
+  - name: guide
+    label: Guides
+    type: collection
+    path: content/entries/guide
+    format: json
+    subfolders: false
+    filename:
+      template: "{primary}.json"
+      field: false
+    view:
+      primary: title
+      fields: [title, type, summary]
+      search: [title, summary]
+    fields:
+      - name: type
+        label: Entry type
+        type: select
+        required: true
+        options:
+          values: [Survival, Onboarding, Crafting]
+      - *title
+      - *summary
+      - *sections
+      - *facts
+      - *image
+      - *image-alt
+      - *related
+      - *sources

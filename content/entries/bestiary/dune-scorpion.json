@@ -1,0 +1,26 @@
+{
+  "title": "Dune Scorpion",
+  "type": "Mob",
+  "summary": "A desert creature named in the client’s creature data.",
+  "sources": [
+    "data/saomod/desert_creatures/dune_scorpion.json"
+  ],
+  "facts": [
+    {
+      "label": "Type",
+      "value": "Mob"
+    },
+    {
+      "label": "Client creature family",
+      "value": "Desert"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Encounter",
+      "paragraphs": [
+        "The client contains a Dune Scorpion animation definition. Its live spawn area, attack timing and drops still need confirmation."
+      ]
+    }
+  ]
+}

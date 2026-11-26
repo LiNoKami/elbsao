@@ -1,0 +1,20 @@
+{
+  "title": "Stachion",
+  "type": "Town",
+  "summary": "A named town with related outdoor landmarks and a labyrinth.",
+  "related": [
+    "locations/lake-talpha",
+    "locations/stachion-labyrinth"
+  ],
+  "sources": [
+    "assets/saomod/lang/en_us.json / saomod.location.stachion*"
+  ],
+  "sections": [
+    {
+      "title": "Around Stachion",
+      "paragraphs": [
+        "The client names Lake Talpha, the Shattered Terraces, the Ravines, Galey Heights, the Goskai Cliffs, and Stachion Labyrinth. Access and routes are still being mapped."
+      ]
+    }
+  ]
+}

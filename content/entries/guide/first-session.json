@@ -1,0 +1,31 @@
+{
+  "title": "First-session checklist",
+  "type": "Onboarding",
+  "summary": "A short checklist to run through before leaving a safe area.",
+  "related": [
+    "guide/death-and-revival",
+    "bestiary/frenzy-boar",
+    "items/boarfang-blade"
+  ],
+  "sources": [
+    "assets/saomod/lang/en_us.json / key.saomod.*"
+  ],
+  "sections": [
+    {
+      "title": "Before leaving town",
+      "bullets": [
+        "Check the current death and party rules.",
+        "Review your dash, block or parry, map and party-ping controls.",
+        "Mark a confirmed safe location and agree on how to get back.",
+        "Choose a piece of starting gear and check its level requirement."
+      ]
+    },
+    {
+      "title": "In the field",
+      "bullets": [
+        "Watch a new enemy’s attack cues from a safe position.",
+        "Record useful routes and landmarks as you confirm them."
+      ]
+    }
+  ]
+}

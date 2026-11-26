@@ -1,0 +1,21 @@
+{
+  "title": "Frenzy Boar Tusk",
+  "type": "Material",
+  "summary": "The Boarfang Blade forge recipe calls for two tusks.",
+  "related": [
+    "items/boarfang-blade",
+    "bestiary/frenzy-boar"
+  ],
+  "sources": [
+    "assets/saomod/lang/en_us.json",
+    "data/saomod/forging/boarfang_blade.json"
+  ],
+  "sections": [
+    {
+      "title": "Uses",
+      "paragraphs": [
+        "The packaged Boarfang Blade recipe uses two Frenzy Boar Tusks. Live drop behavior and quantities still need confirmation."
+      ]
+    }
+  ]
+}

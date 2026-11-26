@@ -1,0 +1,19 @@
+{
+  "title": "Boarrun Dell",
+  "type": "Landmark",
+  "summary": "A named biome to identify in the field.",
+  "related": [
+    "bestiary/frenzy-boar"
+  ],
+  "sources": [
+    "data/saomod/worldgen/biome/boarrun_dell.json"
+  ],
+  "sections": [
+    {
+      "title": "Exploration",
+      "paragraphs": [
+        "The packaged biome has empty spawn lists. Creature encounters and the route to Boarrun Dell still need to be confirmed in game."
+      ]
+    }
+  ]
+}

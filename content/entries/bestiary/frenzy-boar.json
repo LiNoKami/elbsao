@@ -1,0 +1,46 @@
+{
+  "title": "Frenzy Boar",
+  "type": "Mob",
+  "summary": "Listen for the hoof scrape and snort. The charge is the encounter’s most recognizable cue.",
+  "related": [
+    "items/tuskbite-ring",
+    "items/boarfang-blade",
+    "items/frenzy-boar-tusk",
+    "locations/boarrun-dell"
+  ],
+  "sources": [
+    "assets/saomod/lang/en_us.json",
+    "data/saomod/loot_modifiers/relics/tuskbite_ring_frenzy_boar.json",
+    "data/saomod/forging/boarfang_blade.json"
+  ],
+  "facts": [
+    {
+      "label": "Type",
+      "value": "Mob"
+    },
+    {
+      "label": "Identifying cues",
+      "value": "Hoof scrape, snort, charge"
+    },
+    {
+      "label": "Associated gear",
+      "value": "Tuskbite Ring, Boarfang Blade"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Encounter",
+      "paragraphs": [
+        "The client includes distinct sound cues for scraping, snorting, charging, skidding, and crashing. On the beta server, the timing, reach, and damage of these actions still need confirmation.",
+        "Boarrun Dell is a named biome in the client. Frenzy Boar spawn locations still need to be verified in game."
+      ]
+    },
+    {
+      "title": "Loot and gear",
+      "paragraphs": [
+        "The client links a Tuskbite Ring loot rule to the Frenzy Boar. The ring’s availability and drop rate on the beta server are unknown.",
+        "Frenzy Boar Tusks are listed as a material in the Boarfang Blade recipe."
+      ]
+    }
+  ]
+}

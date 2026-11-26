@@ -1,0 +1,26 @@
+{
+  "title": "Canopy Prowler",
+  "type": "Mob",
+  "summary": "Its client attack animations include a bite, paw rake, and pounce.",
+  "sources": [
+    "data/saomod/jungle_creatures/canopy_prowler.json"
+  ],
+  "facts": [
+    {
+      "label": "Type",
+      "value": "Mob"
+    },
+    {
+      "label": "Client creature family",
+      "value": "Jungle"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Encounter",
+      "paragraphs": [
+        "The client names bite, paw rake and pounce animations. Their names identify moves to watch for. Damage, tells and live spawn areas are still unverified."
+      ]
+    }
+  ]
+}

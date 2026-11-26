@@ -1,0 +1,34 @@
+{
+  "title": "Revive Crystal",
+  "type": "Consumable",
+  "summary": "The client describes a time-limited revival item for hardcore worlds. Check server rules before relying on it.",
+  "related": [
+    "guide/death-and-revival"
+  ],
+  "sources": [
+    "assets/saomod/lang/en_us.json / saomod.revive_crystal.*"
+  ],
+  "facts": [
+    {
+      "label": "Client time window",
+      "value": "30 seconds"
+    },
+    {
+      "label": "Client range",
+      "value": "12 blocks"
+    },
+    {
+      "label": "Client recovery",
+      "value": "25% HP"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Revival",
+      "paragraphs": [
+        "The client interface describes use on a recently fallen player within 30 seconds and 12 blocks. It lists a cost of one crystal and a return at 25% HP.",
+        "Check whether your server mode enables the crystal and where you can obtain one."
+      ]
+    }
+  ]
+}

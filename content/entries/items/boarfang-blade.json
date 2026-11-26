@@ -1,0 +1,59 @@
+{
+  "title": "Boarfang Blade",
+  "type": "Weapon",
+  "summary": "A forged weapon that uses Frenzy Boar Tusks. The client lists an equip requirement of level 3.",
+  "related": [
+    "items/frenzy-boar-tusk",
+    "bestiary/frenzy-boar",
+    "guide/forging"
+  ],
+  "sources": [
+    "data/saomod/forging/boarfang_blade.json",
+    "data/saomod/data_maps/item/required_level.json",
+    "data/saomod/data_maps/item/gear_floor.json"
+  ],
+  "facts": [
+    {
+      "label": "Equip level",
+      "value": "3"
+    },
+    {
+      "label": "Forging level",
+      "value": "2"
+    },
+    {
+      "label": "Listed gear floor",
+      "value": "1"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Forging recipe",
+      "paragraphs": [
+        "The client recipe lists tier 3 and 180 forging XP. Confirm the recipe at a forge on your server build."
+      ],
+      "materials": [
+        {
+          "material": "Frenzy Boar Tusk",
+          "quantity": "2"
+        },
+        {
+          "material": "Bone",
+          "quantity": "2"
+        },
+        {
+          "material": "Leather",
+          "quantity": "2"
+        },
+        {
+          "material": "String",
+          "quantity": "1"
+        },
+        {
+          "material": "Iron Ingot",
+          "quantity": "1"
+        }
+      ]
+    }
+  ]
+}

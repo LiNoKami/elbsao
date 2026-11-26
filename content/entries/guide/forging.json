@@ -1,0 +1,21 @@
+{
+  "title": "Forging",
+  "type": "Crafting",
+  "summary": "Read recipes with forging and equipment requirements in mind.",
+  "related": [
+    "items/boarfang-blade"
+  ],
+  "sources": [
+    "assets/saomod/lang/en_us.json / saomod.forge.*",
+    "data/saomod/forging/"
+  ],
+  "sections": [
+    {
+      "title": "Reading a recipe",
+      "paragraphs": [
+        "Client recipe data lists ingredients, a forging level and a tier. Equipment can have a separate equip level.",
+        "The client’s forging interface cues the player to strike when the ring closes. Check the live recipe and station before committing materials."
+      ]
+    }
+  ]
+}

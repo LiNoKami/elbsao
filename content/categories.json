@@ -1,0 +1,46 @@
+[
+  {
+    "id": "bestiary",
+    "name": "Bestiary",
+    "singular": "Creature",
+    "intro": "Identify creatures by their tells and look up associated gear.",
+    "filters": [
+      "Mob",
+      "Boss"
+    ]
+  },
+  {
+    "id": "items",
+    "name": "Items",
+    "singular": "Item",
+    "intro": "Look up equipment, materials, recipes, and their requirements.",
+    "filters": [
+      "Weapon",
+      "Accessory",
+      "Material",
+      "Consumable"
+    ]
+  },
+  {
+    "id": "locations",
+    "name": "Locations",
+    "singular": "Location",
+    "intro": "Browse towns, landmarks, and labyrinths across Aincrad.",
+    "filters": [
+      "Town",
+      "Landmark",
+      "Labyrinth"
+    ]
+  },
+  {
+    "id": "guide",
+    "name": "Guide",
+    "singular": "Guide",
+    "intro": "Quick references for starting out and making decisions in the field.",
+    "filters": [
+      "Survival",
+      "Onboarding",
+      "Crafting"
+    ]
+  }
+]

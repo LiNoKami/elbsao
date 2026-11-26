@@ -1,0 +1,19 @@
+{
+  "title": "Tuskbite Ring",
+  "type": "Accessory",
+  "summary": "A ring linked to the Frenzy Boar in a client loot rule.",
+  "related": [
+    "bestiary/frenzy-boar"
+  ],
+  "sources": [
+    "data/saomod/loot_modifiers/relics/tuskbite_ring_frenzy_boar.json"
+  ],
+  "sections": [
+    {
+      "title": "Acquisition",
+      "paragraphs": [
+        "The installed client points from Frenzy Boar loot to a Tuskbite Ring table. The rule gives no drop rate and live availability still needs confirmation."
+      ]
+    }
+  ]
+}
