@@ -1,0 +1,498 @@
+{
+  "categories": [
+    {
+      "id": "bestiary",
+      "name": "Bestiary",
+      "singular": "Creature",
+      "intro": "Identify creatures by their tells and look up associated gear.",
+      "filters": [
+        "Mob",
+        "Boss"
+      ]
+    },
+    {
+      "id": "items",
+      "name": "Items",
+      "singular": "Item",
+      "intro": "Look up equipment, materials, recipes, and their requirements.",
+      "filters": [
+        "Weapon",
+        "Accessory",
+        "Material",
+        "Consumable"
+      ]
+    },
+    {
+      "id": "locations",
+      "name": "Locations",
+      "singular": "Location",
+      "intro": "Browse towns, landmarks, and labyrinths across Aincrad.",
+      "filters": [
+        "Town",
+        "Landmark",
+        "Labyrinth"
+      ]
+    },
+    {
+      "id": "guide",
+      "name": "Guide",
+      "singular": "Guide",
+      "intro": "Quick references for starting out and making decisions in the field.",
+      "filters": [
+        "Survival",
+        "Onboarding",
+        "Crafting"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "category": "bestiary",
+      "id": "frenzy-boar",
+      "title": "Frenzy Boar",
+      "type": "Mob",
+      "summary": "Listen for the hoof scrape and snort. The charge is the encounter’s most recognizable cue.",
+      "facts": [
+        [
+          "Type",
+          "Mob"
+        ],
+        [
+          "Identifying cues",
+          "Hoof scrape, snort, charge"
+        ],
+        [
+          "Associated gear",
+          "Tuskbite Ring, Boarfang Blade"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Encounter",
+          "paragraphs": [
+            "The client includes distinct sound cues for scraping, snorting, charging, skidding, and crashing. On the beta server, the timing, reach, and damage of these actions still need confirmation.",
+            "Boarrun Dell is a named biome in the client. Frenzy Boar spawn locations still need to be verified in game."
+          ]
+        },
+        {
+          "title": "Loot and gear",
+          "paragraphs": [
+            "The client links a Tuskbite Ring loot rule to the Frenzy Boar. The ring’s availability and drop rate on the beta server are unknown.",
+            "Frenzy Boar Tusks are listed as a material in the Boarfang Blade recipe."
+          ]
+        }
+      ],
+      "related": [
+        "items/tuskbite-ring",
+        "items/boarfang-blade",
+        "items/frenzy-boar-tusk",
+        "locations/boarrun-dell"
+      ],
+      "sources": [
+        "assets/saomod/lang/en_us.json",
+        "data/saomod/loot_modifiers/relics/tuskbite_ring_frenzy_boar.json",
+        "data/saomod/forging/boarfang_blade.json"
+      ]
+    },
+    {
+      "category": "bestiary",
+      "id": "illfang",
+      "title": "Illfang the Kobold Lord",
+      "type": "Boss",
+      "summary": "A named boss with several gear associations in the client.",
+      "facts": [
+        [
+          "Type",
+          "Boss"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Encounter",
+          "paragraphs": [
+            "Illfang is listed among the client’s boss entities. The beta encounter’s entrance, phases and party requirements still need confirmation."
+          ]
+        },
+        {
+          "title": "Loot and gear",
+          "paragraphs": [
+            "Client loot rules associate Illfang with Kobold Lord’s Phantom, Usurper’s Buckler and Warlord’s Horn. Live availability and drop rates are unknown."
+          ]
+        }
+      ],
+      "sources": [
+        "assets/saomod/lang/en_us.json",
+        "data/saomod/tags/entity_type/bosses.json",
+        "data/saomod/loot_modifiers/relics/"
+      ]
+    },
+    {
+      "category": "bestiary",
+      "id": "dune-scorpion",
+      "title": "Dune Scorpion",
+      "type": "Mob",
+      "summary": "A desert creature named in the client’s creature data.",
+      "facts": [
+        [
+          "Type",
+          "Mob"
+        ],
+        [
+          "Client creature family",
+          "Desert"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Encounter",
+          "paragraphs": [
+            "The client contains a Dune Scorpion animation definition. Its live spawn area, attack timing and drops still need confirmation."
+          ]
+        }
+      ],
+      "sources": [
+        "data/saomod/desert_creatures/dune_scorpion.json"
+      ]
+    },
+    {
+      "category": "bestiary",
+      "id": "canopy-prowler",
+      "title": "Canopy Prowler",
+      "type": "Mob",
+      "summary": "Its client attack animations include a bite, paw rake, and pounce.",
+      "facts": [
+        [
+          "Type",
+          "Mob"
+        ],
+        [
+          "Client creature family",
+          "Jungle"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Encounter",
+          "paragraphs": [
+            "The client names bite, paw rake and pounce animations. Their names identify moves to watch for. Damage, tells and live spawn areas are still unverified."
+          ]
+        }
+      ],
+      "sources": [
+        "data/saomod/jungle_creatures/canopy_prowler.json"
+      ]
+    },
+    {
+      "category": "items",
+      "id": "boarfang-blade",
+      "title": "Boarfang Blade",
+      "type": "Weapon",
+      "summary": "A forged weapon that uses Frenzy Boar Tusks. The client lists an equip requirement of level 3.",
+      "facts": [
+        [
+          "Equip level",
+          "3"
+        ],
+        [
+          "Forging level",
+          "2"
+        ],
+        [
+          "Listed gear floor",
+          "1"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Forging recipe",
+          "paragraphs": [
+            "The client recipe lists tier 3 and 180 forging XP. Confirm the recipe at a forge on your server build."
+          ],
+          "materials": [
+            [
+              "Frenzy Boar Tusk",
+              "2"
+            ],
+            [
+              "Bone",
+              "2"
+            ],
+            [
+              "Leather",
+              "2"
+            ],
+            [
+              "String",
+              "1"
+            ],
+            [
+              "Iron Ingot",
+              "1"
+            ]
+          ]
+        }
+      ],
+      "related": [
+        "items/frenzy-boar-tusk",
+        "bestiary/frenzy-boar",
+        "guide/forging"
+      ],
+      "sources": [
+        "data/saomod/forging/boarfang_blade.json",
+        "data/saomod/data_maps/item/required_level.json",
+        "data/saomod/data_maps/item/gear_floor.json"
+      ]
+    },
+    {
+      "category": "items",
+      "id": "tuskbite-ring",
+      "title": "Tuskbite Ring",
+      "type": "Accessory",
+      "summary": "A ring linked to the Frenzy Boar in a client loot rule.",
+      "sections": [
+        {
+          "title": "Acquisition",
+          "paragraphs": [
+            "The installed client points from Frenzy Boar loot to a Tuskbite Ring table. The rule gives no drop rate and live availability still needs confirmation."
+          ]
+        }
+      ],
+      "related": [
+        "bestiary/frenzy-boar"
+      ],
+      "sources": [
+        "data/saomod/loot_modifiers/relics/tuskbite_ring_frenzy_boar.json"
+      ]
+    },
+    {
+      "category": "items",
+      "id": "frenzy-boar-tusk",
+      "title": "Frenzy Boar Tusk",
+      "type": "Material",
+      "summary": "The Boarfang Blade forge recipe calls for two tusks.",
+      "sections": [
+        {
+          "title": "Uses",
+          "paragraphs": [
+            "The packaged Boarfang Blade recipe uses two Frenzy Boar Tusks. Live drop behavior and quantities still need confirmation."
+          ]
+        }
+      ],
+      "related": [
+        "items/boarfang-blade",
+        "bestiary/frenzy-boar"
+      ],
+      "sources": [
+        "assets/saomod/lang/en_us.json",
+        "data/saomod/forging/boarfang_blade.json"
+      ]
+    },
+    {
+      "category": "items",
+      "id": "revive-crystal",
+      "title": "Revive Crystal",
+      "type": "Consumable",
+      "summary": "The client describes a time-limited revival item for hardcore worlds. Check server rules before relying on it.",
+      "facts": [
+        [
+          "Client time window",
+          "30 seconds"
+        ],
+        [
+          "Client range",
+          "12 blocks"
+        ],
+        [
+          "Client recovery",
+          "25% HP"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Revival",
+          "paragraphs": [
+            "The client interface describes use on a recently fallen player within 30 seconds and 12 blocks. It lists a cost of one crystal and a return at 25% HP.",
+            "Check whether your server mode enables the crystal and where you can obtain one."
+          ]
+        }
+      ],
+      "related": [
+        "guide/death-and-revival"
+      ],
+      "sources": [
+        "assets/saomod/lang/en_us.json / saomod.revive_crystal.*"
+      ]
+    },
+    {
+      "category": "locations",
+      "id": "stachion",
+      "title": "Stachion",
+      "type": "Town",
+      "summary": "A named town with related outdoor landmarks and a labyrinth.",
+      "sections": [
+        {
+          "title": "Around Stachion",
+          "paragraphs": [
+            "The client names Lake Talpha, the Shattered Terraces, the Ravines, Galey Heights, the Goskai Cliffs, and Stachion Labyrinth. Access and routes are still being mapped."
+          ]
+        }
+      ],
+      "related": [
+        "locations/lake-talpha",
+        "locations/stachion-labyrinth"
+      ],
+      "sources": [
+        "assets/saomod/lang/en_us.json / saomod.location.stachion*"
+      ]
+    },
+    {
+      "category": "locations",
+      "id": "lake-talpha",
+      "title": "Lake Talpha",
+      "type": "Landmark",
+      "summary": "A lake named among the Stachion locations in the client.",
+      "sections": [
+        {
+          "title": "Finding the lake",
+          "paragraphs": [
+            "The client labels this landmark under Stachion. The route, nearby enemies and travel hazards still need confirmation."
+          ]
+        }
+      ],
+      "related": [
+        "locations/stachion"
+      ],
+      "sources": [
+        "assets/saomod/lang/en_us.json / saomod.location.stachion_lake"
+      ]
+    },
+    {
+      "category": "locations",
+      "id": "stachion-labyrinth",
+      "title": "Stachion Labyrinth",
+      "type": "Labyrinth",
+      "summary": "A named labyrinth associated with Stachion.",
+      "sections": [
+        {
+          "title": "Access",
+          "paragraphs": [
+            "Stachion Labyrinth appears among the client’s named locations. The entrance, access requirements and encounters still need confirmation."
+          ]
+        }
+      ],
+      "related": [
+        "locations/stachion"
+      ],
+      "sources": [
+        "assets/saomod/lang/en_us.json / saomod.location.stachion_labyrinth"
+      ]
+    },
+    {
+      "category": "locations",
+      "id": "boarrun-dell",
+      "title": "Boarrun Dell",
+      "type": "Landmark",
+      "summary": "A named biome to identify in the field.",
+      "sections": [
+        {
+          "title": "Exploration",
+          "paragraphs": [
+            "The packaged biome has empty spawn lists. Creature encounters and the route to Boarrun Dell still need to be confirmed in game."
+          ]
+        }
+      ],
+      "related": [
+        "bestiary/frenzy-boar"
+      ],
+      "sources": [
+        "data/saomod/worldgen/biome/boarrun_dell.json"
+      ]
+    },
+    {
+      "category": "guide",
+      "id": "death-and-revival",
+      "title": "Death & revival",
+      "type": "Survival",
+      "summary": "Check the beta’s death rules before staking a run on revival.",
+      "sections": [
+        {
+          "title": "Before a fight",
+          "bullets": [
+            "Check the current rules for the server and mode you are playing.",
+            "Confirm whether party members can use Revive Crystals and how they are obtained.",
+            "Agree on a retreat route and when to disengage."
+          ]
+        },
+        {
+          "title": "Revive Crystal",
+          "paragraphs": [
+            "The client describes a 30-second use window, a 12-block range and revival at 25% HP in hardcore worlds. The current server rules and crystal availability still need confirmation."
+          ]
+        }
+      ],
+      "related": [
+        "items/revive-crystal",
+        "guide/first-session"
+      ],
+      "sources": [
+        "assets/saomod/lang/en_us.json / saomod.revive_crystal.*"
+      ]
+    },
+    {
+      "category": "guide",
+      "id": "first-session",
+      "title": "First-session checklist",
+      "type": "Onboarding",
+      "summary": "A short checklist to run through before leaving a safe area.",
+      "sections": [
+        {
+          "title": "Before leaving town",
+          "bullets": [
+            "Check the current death and party rules.",
+            "Review your dash, block or parry, map and party-ping controls.",
+            "Mark a confirmed safe location and agree on how to get back.",
+            "Choose a piece of starting gear and check its level requirement."
+          ]
+        },
+        {
+          "title": "In the field",
+          "bullets": [
+            "Watch a new enemy’s attack cues from a safe position.",
+            "Record useful routes and landmarks as you confirm them."
+          ]
+        }
+      ],
+      "related": [
+        "guide/death-and-revival",
+        "bestiary/frenzy-boar",
+        "items/boarfang-blade"
+      ],
+      "sources": [
+        "assets/saomod/lang/en_us.json / key.saomod.*"
+      ]
+    },
+    {
+      "category": "guide",
+      "id": "forging",
+      "title": "Forging",
+      "type": "Crafting",
+      "summary": "Read recipes with forging and equipment requirements in mind.",
+      "sections": [
+        {
+          "title": "Reading a recipe",
+          "paragraphs": [
+            "Client recipe data lists ingredients, a forging level and a tier. Equipment can have a separate equip level.",
+            "The client’s forging interface cues the player to strike when the ring closes. Check the live recipe and station before committing materials."
+          ]
+        }
+      ],
+      "related": [
+        "items/boarfang-blade"
+      ],
+      "sources": [
+        "assets/saomod/lang/en_us.json / saomod.forge.*",
+        "data/saomod/forging/"
+      ]
+    }
+  ]
+}

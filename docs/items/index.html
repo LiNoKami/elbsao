@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en" id="top" data-wiki-root="../">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101a28">
+  <meta name="description" content="Look up equipment, materials, recipes, and their requirements.">
+  <title>Items · Sword Art Offline Wiki</title>
+  <link rel="icon" href="../assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/wiki.css">
+  <script src="../assets/search-index.js" defer></script>
+  <script src="../assets/wiki.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header class="site-header">
+  <div class="frame header-inner">
+    <a class="brand" href="../"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2v15m-4-4h8m-4 4v5m-2-3h4M12 2l2 3-2 3-2-3z"/></svg><span>Sword Art Offline</span></a>
+    <nav aria-label="Main navigation"><a href="../">Home</a><a href="../bestiary/">Bestiary</a><a href="../items/" aria-current="page">Items</a><a href="../locations/">Locations</a><a href="../guide/">Guide</a></nav>
+    <button class="header-search" type="button" data-open-search aria-label="Search the wiki"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><span>Search the wiki</span><kbd>Ctrl K</kbd></button>
+  </div>
+</header>
+  <main id="content"><div class="frame page-shell">
+      <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../">Home</a><span aria-hidden="true">/</span><span aria-current="page">Items</span></nav>
+      <div class="listing-heading"><h1 class="slash-title">Items</h1><p>Look up equipment, materials, recipes, and their requirements.</p></div>
+      <section class="catalogue" aria-label="Items catalogue">
+        <h2 class="ruled-title">All items</h2>
+        <div class="filter-bar" hidden data-filter-bar><div class="filter-options" aria-label="Filter entries">
+        <button type="button" data-filter="All" aria-pressed="true">All</button><button type="button" data-filter="Weapon" aria-pressed="false">Weapon</button><button type="button" data-filter="Accessory" aria-pressed="false">Accessory</button><button type="button" data-filter="Material" aria-pressed="false">Material</button><button type="button" data-filter="Consumable" aria-pressed="false">Consumable</button>
+        </div><span class="filter-count" role="status" data-filter-count></span></div>
+        <ul class="catalogue-list"><li data-entry-type="Weapon"><a href="../items/boarfang-blade/">
+          <span><strong>Boarfang Blade</strong><span class="listing-summary">A forged weapon that uses Frenzy Boar Tusks. The client lists an equip requirement of level 3.</span></span><span class="type-label">Weapon</span></a></li><li data-entry-type="Accessory"><a href="../items/tuskbite-ring/">
+          <span><strong>Tuskbite Ring</strong><span class="listing-summary">A ring linked to the Frenzy Boar in a client loot rule.</span></span><span class="type-label">Accessory</span></a></li><li data-entry-type="Material"><a href="../items/frenzy-boar-tusk/">
+          <span><strong>Frenzy Boar Tusk</strong><span class="listing-summary">The Boarfang Blade forge recipe calls for two tusks.</span></span><span class="type-label">Material</span></a></li><li data-entry-type="Consumable"><a href="../items/revive-crystal/">
+          <span><strong>Revive Crystal</strong><span class="listing-summary">The client describes a time-limited revival item for hardcore worlds. Check server rules before relying on it.</span></span><span class="type-label">Consumable</span></a></li></ul>
+      </section>
+    </div></main>
+  <footer class="site-footer"><div class="frame footer-inner">
+    <div><a class="brand" href="../"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2v15m-4-4h8m-4 4v5m-2-3h4M12 2l2 3-2 3-2-3z"/></svg><span>Sword Art Offline</span></a><p>An unofficial player wiki for Sword Art Offline.</p></div>
+    <nav aria-label="Footer navigation"><a href="../bestiary/">Bestiary</a><a href="../items/">Items</a><a href="../locations/">Locations</a><a href="../guide/">Guide</a><a href="#top">Back to top</a></nav>
+  </div></footer>
+  <dialog class="search-dialog" id="wiki-search" aria-labelledby="search-heading">
+    <div class="search-dialog-inner">
+      <div class="dialog-heading"><h2 id="search-heading">Search the wiki</h2><form method="dialog"><button type="submit" class="icon-button" aria-label="Close search"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></form></div>
+      <label class="dialog-search-control" for="search-query"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><span class="visually-hidden">Search mobs, items, locations and guides</span><input id="search-query" type="search" placeholder="Try Frenzy Boar or forging" autocomplete="off" spellcheck="false"></label>
+      <p class="search-message" id="search-message" role="status"></p>
+      <ul class="search-results" id="search-results"></ul>
+    </div>
+  </dialog>
+</body>
+</html>
